@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="CardFooterTableView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ENm-R3-m90">
+                    <rect key="frame" x="8" y="0.0" width="359" height="42"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PEk-E5-HB0">
+                            <rect key="frame" x="8" y="15" width="167.5" height="19"/>
+                            <state key="normal" title="助テキス"/>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aoz-uj-3lT">
+                            <rect key="frame" x="183.5" y="15" width="167.5" height="19.5"/>
+                            <state key="normal" title="助テキス  &gt;"/>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="------------------------------------------------------------------------------------------------------------" textAlignment="natural" lineBreakMode="characterWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cwn-mw-8ey">
+                            <rect key="frame" x="8" y="0.0" width="343" height="10"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="10" id="8nj-pe-QKN"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="aoz-uj-3lT" secondAttribute="bottom" constant="8" id="CY9-Ry-gV6"/>
+                        <constraint firstItem="cwn-mw-8ey" firstAttribute="leading" secondItem="ENm-R3-m90" secondAttribute="leading" constant="8" id="DA4-Mr-55L"/>
+                        <constraint firstItem="aoz-uj-3lT" firstAttribute="leading" secondItem="PEk-E5-HB0" secondAttribute="trailing" constant="8" id="GqJ-3S-bIe"/>
+                        <constraint firstAttribute="bottom" secondItem="PEk-E5-HB0" secondAttribute="bottom" constant="8" id="Jgp-p0-59g"/>
+                        <constraint firstItem="aoz-uj-3lT" firstAttribute="top" secondItem="cwn-mw-8ey" secondAttribute="bottom" constant="5" id="bAa-sn-blG"/>
+                        <constraint firstItem="PEk-E5-HB0" firstAttribute="leading" secondItem="ENm-R3-m90" secondAttribute="leading" constant="8" id="dPM-a9-VR8"/>
+                        <constraint firstAttribute="trailing" secondItem="cwn-mw-8ey" secondAttribute="trailing" constant="8" id="hA5-6A-KRn"/>
+                        <constraint firstItem="cwn-mw-8ey" firstAttribute="top" secondItem="ENm-R3-m90" secondAttribute="top" id="jbT-oM-zgJ"/>
+                        <constraint firstItem="aoz-uj-3lT" firstAttribute="width" secondItem="PEk-E5-HB0" secondAttribute="width" id="kOP-M5-j2B"/>
+                        <constraint firstItem="PEk-E5-HB0" firstAttribute="top" secondItem="cwn-mw-8ey" secondAttribute="bottom" constant="5" id="uGC-qU-o6c"/>
+                        <constraint firstAttribute="trailing" secondItem="aoz-uj-3lT" secondAttribute="trailing" constant="8" id="vHi-bf-smx"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <constraints>
+                <constraint firstItem="ENm-R3-m90" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="36r-xz-v1a"/>
+                <constraint firstItem="ENm-R3-m90" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="9Fw-U0-SAv"/>
+                <constraint firstAttribute="trailing" secondItem="ENm-R3-m90" secondAttribute="trailing" constant="8" id="EXf-qL-aDZ"/>
+                <constraint firstAttribute="bottom" secondItem="ENm-R3-m90" secondAttribute="bottom" constant="8" id="rqn-ZA-8Yp"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="viewContain" destination="ENm-R3-m90" id="BsR-Se-ryA"/>
+            </connections>
+            <point key="canvasLocation" x="37.5" y="-430"/>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,877 @@
+{
+"responseCode" : 200,
+"responseTime" : 5,
+"displayTypeIndicator" : 0,
+"cardList" :
+[
+{
+"contentId" : "",
+"cardId" : 1,
+"scheduleFlag" : "",
+"layoutPatternId" : "",
+"derivedId" : "",
+"title" : "イメージ（複数項目の場合）",
+"option" : "",
+"listItemGroup" :
+[
+{
+"text" : "メインテキスト：最大２行",
+"caption" : "サブテキスト：最大２行 サブテキスト：最大２行",
+"image" : "",
+"webview" : "",
+"listPressTransitionDestinationURL" : ""
+},
+{
+"text" : "メインテキスト：最大２行",
+"caption" : "サブテキスト：最大２行 サブテキスト：最大２行",
+"image" : "",
+"webview" : "",
+"listPressTransitionDestinationURL" : ""
+}
+],
+"destimationButtonType" : "",
+"destinationButtonList" :
+[
+{
+"buttonDisplayText" : "",
+"buttonPressedTransitionDestinationURL" : ""
+}
+
+],
+"takingSpeechWritten" : "",
+"dialogScenarioId" : "",
+"inputAuxiliaryList" :
+[
+{
+"inputAuxiliaryText" : ""
+}
+],
+"talkativeCharacterIconImage" : "",
+"contentList" :
+[
+{
+"contentId" : "",
+"talkingSpeechWrittenText" : "",
+"dialogScenarioId" : ""
+}
+],
+"talkativeCharacterIconURL" : "",
+"antySleepContentList" :
+[
+{
+"contentId" : 21
+}
+]
+},
+
+{
+"contentId" : "",
+"cardId" : 2,
+"scheduleFlag" : "",
+"layoutPatternId" : "",
+"derivedId" : "",
+"title" : "イメージ（複数項目の場合）",
+"option" : "",
+"listItemGroup" :
+[
+{
+"text" : "メインテキスト：最大２行",
+"caption" : "サブテキスト：最大２行 サブテキスト：最大２行",
+"image" : "",
+"webview" : "",
+"listPressTransitionDestinationURL" : ""
+}
+],
+"destimationButtonType" : "",
+"destinationButtonList" :
+[
+{
+"buttonDisplayText" : "",
+"buttonPressedTransitionDestinationURL" : ""
+}
+
+],
+"takingSpeechWritten" : "",
+"dialogScenarioId" : "",
+"inputAuxiliaryList" :
+[
+{
+"inputAuxiliaryText" : ""
+}
+],
+"talkativeCharacterIconImage" : "",
+"contentList" :
+[
+{
+"contentId" : "",
+"talkingSpeechWrittenText" : "",
+"dialogScenarioId" : ""
+}
+],
+"talkativeCharacterIconURL" : "",
+"antySleepContentList" :
+[
+{
+"contentId" : 21
+}
+]
+},
+
+{
+"contentId" : "",
+"cardId" : 3,
+"scheduleFlag" : "",
+"layoutPatternId" : "",
+"derivedId" : "",
+"title" : "イメージ（複数項目の場合）",
+"option" : "",
+"listItemGroup" :
+[
+{
+"text" : "メインテキスト：最大２行",
+"caption" : "サブテキスト：最大２行 サブテキスト：最大２行",
+"image" : "",
+"web view" : "",
+"listPressTransitionDestinationURL" : ""
+}
+],
+"destimationButtonType" : "",
+"destinationButtonList" :
+[
+{
+"buttonDisplayText" : "",
+"buttonPressedTransitionDestinationURL" : ""
+}
+
+],
+"takingSpeechWritten" : "",
+"dialogScenarioId" : "",
+"inputAuxiliaryList" :
+[
+{
+"inputAuxiliaryText" : ""
+}
+],
+"talkativeCharacterIconImage" : "",
+"contentList" :
+[
+{
+"contentId" : "",
+"talkingSpeechWrittenText" : "",
+"dialogScenarioId" : ""
+}
+],
+"talkativeCharacterIconURL" : "",
+"antySleepContentList" :
+[
+{
+"contentId" : 21
+}
+]
+},
+
+{
+"contentId" : "",
+"cardId" : 2,
+"scheduleFlag" : "",
+"layoutPatternId" : "",
+"derivedId" : "",
+"title" : "イメージ（複数項目の場合）",
+"option" : "",
+"listItemGroup" :
+[
+{
+"text" : "Card Type 2-1",
+"caption" : "サブテキスト：最大２行 サブテキスト：最大２行",
+"image" : "",
+"webview" : "",
+"listPressTransitionDestinationURL" : ""
+},
+{
+"text" : "Card Type 2-2",
+"caption" : "サブテキスト：最大２行 サブテキスト：最大２行",
+"image" : "",
+"webview" : "",
+"listPressTransitionDestinationURL" : ""
+}
+],
+"destimationButtonType" : "",
+"destinationButtonList" :
+[
+{
+"buttonDisplayText" : "",
+"buttonPressedTransitionDestinationURL" : ""
+}
+
+],
+"takingSpeechWritten" : "",
+"dialogScenarioId" : "",
+"inputAuxiliaryList" :
+[
+{
+"inputAuxiliaryText" : ""
+}
+],
+"talkativeCharacterIconImage" : "",
+"contentList" :
+[
+{
+"contentId" : "",
+"talkingSpeechWrittenText" : "",
+"dialogScenarioId" : ""
+}
+],
+"talkativeCharacterIconURL" : "",
+"antySleepContentList" :
+[
+{
+"contentId" : 21
+}
+]
+},
+
+
+{
+"contentId" : "",
+"cardId" : 4,
+"scheduleFlag" : "",
+"layoutPatternId" : "",
+"derivedId" : "",
+"title" : "イメージ（複数項目の場合）",
+"option" : "",
+"listItemGroup" :
+[
+{
+"text" : "メインテキスト：最大２行",
+"caption" : "サブテキスト：最大２行 サブテキスト：最大２行",
+"image" : "http://www.footprintsrecruiting.com/sites/default/files/styles/landing_page_main_image/public/teach-english-in-japan.jpg",
+"web view" : "",
+"listPressTransitionDestinationURL" : ""
+},
+{
+"text" : "メインテキスト：最大２行",
+"caption" : "サブテキスト：最大２行 サブテキスト：最大２行",
+"image" : "https://static1.squarespace.com/static/57901762725e2547f073e884/t/57df1bcb2994ca976a787471/1474239437433/japan.jpg?format=1500w",
+"web view" : "",
+"listPressTransitionDestinationURL" : ""
+},
+{
+"text" : "メインテキスト：最大２行",
+"caption" : "サブテキスト：最大２行 サブテキスト：最大２行",
+"image" : "https://upload.wikimedia.org/wikipedia/commons/f/fc/National_Diet_Library_Japan.jpg",
+"web view" : "",
+"listPressTransitionDestinationURL" : ""
+},
+{
+"text" : "メインテキスト：最大２行",
+"caption" : "サブテキスト：最大２行 サブテキスト：最大２行",
+"image" : "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Peablue_October_2007_Osaka_Japan.jpg/1024px-Peablue_October_2007_Osaka_Japan.jpg",
+"web view" : "",
+"listPressTransitionDestinationURL" : ""
+}
+],
+"destimationButtonType" : "",
+"destinationButtonList" :
+[
+{
+"buttonDisplayText" : "",
+"buttonPressedTransitionDestinationURL" : ""
+}
+
+],
+"takingSpeechWritten" : "",
+"dialogScenarioId" : "",
+"inputAuxiliaryList" :
+[
+{
+"inputAuxiliaryText" : ""
+}
+],
+"talkativeCharacterIconImage" : "",
+"contentList" :
+[
+{
+"contentId" : "",
+"talkingSpeechWrittenText" : "",
+"dialogScenarioId" : ""
+}
+],
+"talkativeCharacterIconURL" : "",
+"antySleepContentList" :
+[
+{
+"contentId" : 21
+}
+]
+},
+
+{
+"contentId" : "",
+"cardId" : 5,
+"scheduleFlag" : "",
+"layoutPatternId" : "",
+"derivedId" : "",
+"title" : "イメージ（複数項目の場合）",
+"option" : "",
+"listItemGroup" :
+[
+{
+"text" : "メインテキスト：最大２行",
+"caption" : "サブテキスト：最大２行 サブテキスト：最大２行",
+"image" : "",
+"web view" : "",
+"listPressTransitionDestinationURL" : ""
+},
+{
+"text" : "メインテキスト：最大２行",
+"caption" : "サブテキスト：最大２行 サブテキスト：最大２行",
+"image" : "",
+"web view" : "",
+"listPressTransitionDestinationURL" : ""
+},
+{
+"text" : "メインテキスト：最大２行",
+"caption" : "サブテキスト：最大２行 サブテキスト：最大２行",
+"image" : "",
+"web view" : "",
+"listPressTransitionDestinationURL" : ""
+},
+{
+"text" : "メインテキスト：最大２行",
+"caption" : "サブテキスト：最大２行 サブテキスト：最大２行",
+"image" : "",
+"web view" : "",
+"listPressTransitionDestinationURL" : ""
+},
+{
+"text" : "メインテキスト：最大２行",
+"caption" : "サブテキスト：最大２行 サブテキスト：最大２行",
+"image" : "",
+"web view" : "",
+"listPressTransitionDestinationURL" : ""
+},
+{
+"text" : "メインテキスト：最大２行",
+"caption" : "サブテキスト：最大２行 サブテキスト：最大２行",
+"image" : "",
+"web view" : "",
+"listPressTransitionDestinationURL" : ""
+},
+{
+"text" : "メインテキスト：最大２行",
+"caption" : "サブテキスト：最大２行 サブテキスト：最大２行",
+"image" : "",
+"web view" : "",
+"listPressTransitionDestinationURL" : ""
+}
+],
+"destimationButtonType" : "",
+"destinationButtonList" :
+[
+{
+"buttonDisplayText" : "",
+"buttonPressedTransitionDestinationURL" : ""
+}
+
+],
+"takingSpeechWritten" : "",
+"dialogScenarioId" : "",
+"inputAuxiliaryList" :
+[
+{
+"inputAuxiliaryText" : ""
+}
+],
+"talkativeCharacterIconImage" : "",
+"contentList" :
+[
+{
+"contentId" : "",
+"talkingSpeechWrittenText" : "",
+"dialogScenarioId" : ""
+}
+],
+"talkativeCharacterIconURL" : "",
+"antySleepContentList" :
+[
+{
+"contentId" : 21
+}
+]
+},
+
+
+{
+"contentId" : "",
+"cardId" : 6,
+"scheduleFlag" : "",
+"layoutPatternId" : "",
+"derivedId" : "",
+"title" : "イメージ（複数項目の場合）",
+"option" : "",
+"listItemGroup" :
+[
+{
+"text" : "メインテキスト：最大２行",
+"caption" : "サブテキスト：最大２行 サブテキスト：最大２行",
+"image" : "https://upload.wikimedia.org/wikipedia/commons/0/0d/Great_Wave_off_Kanagawa2.jpg",
+"webview" : "",
+"listPressTransitionDestinationURL" : ""
+}
+],
+"destimationButtonType" : "",
+"destinationButtonList" :
+[
+{
+"buttonDisplayText" : "",
+"buttonPressedTransitionDestinationURL" : ""
+}
+
+],
+"takingSpeechWritten" : "",
+"dialogScenarioId" : "",
+"inputAuxiliaryList" :
+[
+{
+"inputAuxiliaryText" : ""
+}
+],
+"talkativeCharacterIconImage" : "",
+"contentList" :
+[
+{
+"contentId" : "",
+"talkingSpeechWrittenText" : "",
+"dialogScenarioId" : ""
+}
+],
+"talkativeCharacterIconURL" : "",
+"antySleepContentList" :
+[
+{
+"contentId" : 21
+}
+]
+},
+
+{
+"contentId" : "",
+"cardId" : 7,
+"scheduleFlag" : "",
+"layoutPatternId" : "",
+"derivedId" : "",
+"title" : "イメージ（複数項目の場合）",
+"option" : "",
+"listItemGroup" :
+[
+{
+"text" : "メインテキスト：最大２行",
+"caption" : "サブテキスト：最大２行 サブテキスト：最大２行",
+"image" : "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Peablue_October_2007_Osaka_Japan.jpg/1024px-Peablue_October_2007_Osaka_Japan.jpg",
+"webview" : "",
+"listPressTransitionDestinationURL" : ""
+}
+],
+"destimationButtonType" : "",
+"destinationButtonList" :
+[
+{
+"buttonDisplayText" : "",
+"buttonPressedTransitionDestinationURL" : ""
+}
+
+],
+"takingSpeechWritten" : "",
+"dialogScenarioId" : "",
+"inputAuxiliaryList" :
+[
+{
+"inputAuxiliaryText" : ""
+}
+],
+"talkativeCharacterIconImage" : "",
+"contentList" :
+[
+{
+"contentId" : "",
+"talkingSpeechWrittenText" : "",
+"dialogScenarioId" : ""
+}
+],
+"talkativeCharacterIconURL" : "",
+"antySleepContentList" :
+[
+{
+"contentId" : 21
+}
+]
+},
+
+{
+"contentId" : "",
+"cardId" : 8,
+"scheduleFlag" : "",
+"layoutPatternId" : "",
+"derivedId" : "",
+"title" : "イメージ（複数項目の場合）",
+"option" : "",
+"listItemGroup" :
+[
+{
+"text" : "メインテキスト：最大２行",
+"caption" : "サブテキスト：最大２行 サブテキスト：最大２行",
+"image" : "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Peablue_October_2007_Osaka_Japan.jpg/1024px-Peablue_October_2007_Osaka_Japan.jpg",
+"webview" : "",
+"listPressTransitionDestinationURL" : ""
+}
+],
+"destimationButtonType" : "",
+"destinationButtonList" :
+[
+{
+"buttonDisplayText" : "",
+"buttonPressedTransitionDestinationURL" : ""
+}
+
+],
+"takingSpeechWritten" : "",
+"dialogScenarioId" : "",
+"inputAuxiliaryList" :
+[
+{
+"inputAuxiliaryText" : ""
+}
+],
+"talkativeCharacterIconImage" : "",
+"contentList" :
+[
+{
+"contentId" : "",
+"talkingSpeechWrittenText" : "",
+"dialogScenarioId" : ""
+}
+],
+"talkativeCharacterIconURL" : "",
+"antySleepContentList" :
+[
+{
+"contentId" : 21
+}
+]
+},
+
+{
+"contentId" : "",
+"cardId" : 9,
+"scheduleFlag" : "",
+"layoutPatternId" : "",
+"derivedId" : "",
+"title" : "イメージ（複数項目の場合）",
+"option" : "",
+"listItemGroup" :
+[
+{
+"text" : "メインテキスト：最大２行",
+"caption" : "サブテキスト：最大２行 サブテキスト：最大２行",
+"image" : "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Peablue_October_2007_Osaka_Japan.jpg/1024px-Peablue_October_2007_Osaka_Japan.jpg",
+"webview" : "",
+"listPressTransitionDestinationURL" : ""
+},
+
+{
+"text" : "メインテキスト：最大２行",
+"caption" : "サブテキスト：最大２行 サブテキスト：最大２行",
+"image" : "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Peablue_October_2007_Osaka_Japan.jpg/1024px-Peablue_October_2007_Osaka_Japan.jpg",
+"webview" : "",
+"listPressTransitionDestinationURL" : ""
+},
+
+{
+"text" : "メインテキスト：最大２行",
+"caption" : "サブテキスト：最大２行 サブテキスト：最大２行",
+"image" : "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Peablue_October_2007_Osaka_Japan.jpg/1024px-Peablue_October_2007_Osaka_Japan.jpg",
+"webview" : "",
+"listPressTransitionDestinationURL" : ""
+}
+],
+"destimationButtonType" : "",
+"destinationButtonList" :
+[
+{
+"buttonDisplayText" : "",
+"buttonPressedTransitionDestinationURL" : ""
+}
+
+],
+"takingSpeechWritten" : "",
+"dialogScenarioId" : "",
+"inputAuxiliaryList" :
+[
+{
+"inputAuxiliaryText" : ""
+}
+],
+"talkativeCharacterIconImage" : "",
+"contentList" :
+[
+{
+"contentId" : "",
+"talkingSpeechWrittenText" : "",
+"dialogScenarioId" : ""
+}
+],
+"talkativeCharacterIconURL" : "",
+"antySleepContentList" :
+[
+{
+"contentId" : 21
+}
+]
+},
+
+{
+"contentId" : "",
+"cardId" : 10,
+"scheduleFlag" : "",
+"layoutPatternId" : "",
+"derivedId" : "",
+"title" : "イメージ（複数項目の場合）",
+"option" : "",
+"listItemGroup" :
+[
+{
+"text" : "メインテキスト：最大２行",
+"caption" : "サブテキスト：最大２行 サブテキスト：最大２行",
+"image" : "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Peablue_October_2007_Osaka_Japan.jpg/1024px-Peablue_October_2007_Osaka_Japan.jpg",
+"webview" : "",
+"listPressTransitionDestinationURL" : ""
+}
+],
+"destimationButtonType" : "",
+"destinationButtonList" :
+[
+{
+"buttonDisplayText" : "",
+"buttonPressedTransitionDestinationURL" : ""
+}
+
+],
+"takingSpeechWritten" : "",
+"dialogScenarioId" : "",
+"inputAuxiliaryList" :
+[
+{
+"inputAuxiliaryText" : ""
+}
+],
+"talkativeCharacterIconImage" : "",
+"contentList" :
+[
+{
+"contentId" : "",
+"talkingSpeechWrittenText" : "",
+"dialogScenarioId" : ""
+}
+],
+"talkativeCharacterIconURL" : "",
+"antySleepContentList" :
+[
+{
+"contentId" : 21
+}
+]
+},
+
+{
+"contentId" : "",
+"cardId" : 11,
+"scheduleFlag" : "",
+"layoutPatternId" : "",
+"derivedId" : "",
+"title" : "イメージ（複数項目の場合）",
+"option" : "",
+"listItemGroup" :
+[
+{
+"text" : "メインテキスト：最大２行",
+"caption" : "サブテキスト：最大２行 サブテキスト：最大２行",
+"image" : "http://sohanews.sohacdn.com/2017/photo-1-1488161671994.jpg",
+"webview" : "",
+"listPressTransitionDestinationURL" : ""
+}
+],
+"destimationButtonType" : "",
+"destinationButtonList" :
+[
+{
+"buttonDisplayText" : "",
+"buttonPressedTransitionDestinationURL" : ""
+}
+
+],
+"takingSpeechWritten" : "",
+"dialogScenarioId" : "",
+"inputAuxiliaryList" :
+[
+{
+"inputAuxiliaryText" : ""
+}
+],
+"talkativeCharacterIconImage" : "",
+"contentList" :
+[
+{
+"contentId" : "",
+"talkingSpeechWrittenText" : "",
+"dialogScenarioId" : ""
+}
+],
+"talkativeCharacterIconURL" : "",
+"antySleepContentList" :
+[
+{
+"contentId" : 21
+}
+]
+},
+
+{
+"contentId" : "",
+"cardId" : 12,
+"scheduleFlag" : "",
+"layoutPatternId" : "",
+"derivedId" : "",
+"title" : "イメージ（複数項目の場合）",
+"option" : "",
+"listItemGroup" :
+[
+{
+"text" : "メインテ",
+"caption" : "サブテキスト：最大２行 サブテキスト：最大２行",
+"image" : "http://sohanews.sohacdn.com/2017/photo-1-1488161671994.jpg",
+"webview" : "",
+"listPressTransitionDestinationURL" : ""
+},
+
+{
+"text" : "メインテキスト：最大２行",
+"caption" : "サブテキスト：最大２行 サブテキスト：最大２行",
+"image" : "http://sohanews.sohacdn.com/k:2014/3-meo-rua-moi-loai-rau-sach-va-dung-cach3-1417296655542/meo-rua-sach-moi-loai-rau-dung-cach-va-sai-lam-khi-rua-rau.jpg",
+"webview" : "",
+"listPressTransitionDestinationURL" : ""
+},
+
+{
+"text" : "メインテキスト：最大２行",
+"caption" : "サブテキスト：最大２行 サブテキスト：最大２行",
+"image" : "http://www.doanhnhansaigon.vn/ic/c/a/w620h405f1c1-files-articles-2015-1089431-canh-dong-rau.jpg",
+"webview" : "",
+"listPressTransitionDestinationURL" : ""
+},
+
+{
+"text" : "メインテキスト：最大２行",
+"caption" : "サブテキスト：最大２行 サブテキスト：最大２行",
+"image" : "http://sohanews.sohacdn.com/zoom/260_162/2017/photo-1-1494200313989-21-0-493-760-crop-1494200327360.jpg",
+"webview" : "",
+"listPressTransitionDestinationURL" : ""
+},
+
+],
+"destimationButtonType" : "",
+"destinationButtonList" :
+[
+{
+"buttonDisplayText" : "",
+"buttonPressedTransitionDestinationURL" : ""
+}
+
+],
+"takingSpeechWritten" : "",
+"dialogScenarioId" : "",
+"inputAuxiliaryList" :
+[
+{
+"inputAuxiliaryText" : ""
+}
+],
+"talkativeCharacterIconImage" : "",
+"contentList" :
+[
+{
+"contentId" : "",
+"talkingSpeechWrittenText" : "",
+"dialogScenarioId" : ""
+}
+],
+"talkativeCharacterIconURL" : "",
+"antySleepContentList" :
+[
+{
+"contentId" : 21
+}
+]
+},
+
+{
+"contentId" : "",
+"cardId" : 1,
+"scheduleFlag" : "",
+"layoutPatternId" : "",
+"derivedId" : "",
+"title" : "イメージ（複数項目の場合）",
+"option" : "",
+"listItemGroup" :
+[
+{
+"text" : "メインテキスト：最大２行",
+"caption" : "サブテキスト：最大２行 サブテキスト：最大２行",
+"image" : "",
+"webview" : "",
+"listPressTransitionDestinationURL" : ""
+},
+{
+"text" : "メインテキスト：最大２行",
+"caption" : "サブテキスト：最大２行 サブテキスト：最大２行",
+"image" : "",
+"webview" : "",
+"listPressTransitionDestinationURL" : ""
+}
+],
+"destimationButtonType" : "",
+"destinationButtonList" :
+[
+{
+"buttonDisplayText" : "",
+"buttonPressedTransitionDestinationURL" : ""
+}
+
+],
+"takingSpeechWritten" : "",
+"dialogScenarioId" : "",
+"inputAuxiliaryList" :
+[
+{
+"inputAuxiliaryText" : ""
+}
+],
+"talkativeCharacterIconImage" : "",
+"contentList" :
+[
+{
+"contentId" : "",
+"talkingSpeechWrittenText" : "",
+"dialogScenarioId" : ""
+}
+],
+"talkativeCharacterIconURL" : "",
+"antySleepContentList" :
+[
+{
+"contentId" : 21
+}
+]
+},
+
+]
+}

@@ -1,0 +1,119 @@
+{
+"A" : [
+{
+"cardid" : 1,
+"maintext" : "メインテキスト：最大２行",
+"subtext" : "サブテキスト：最大２行",
+"supplementarytext" : "補助テキスト；１行",
+},
+{
+"cardid" : 2,
+"maintext" : "メインテキスト：最大２行 メインテキスト：最大２行 メインテキスト：最大２行 メインテキスト：最大２行",
+"subtext" : "サブテキスト：最大２行 サブテキスト：最大２行 サブテキスト：最大２行",
+"supplementarytext" : "補助テキスト；１行",
+},
+],
+
+"B" : [
+{
+"cardid" : 1,
+"maintext" : "メインテキスト：最大２行",
+"subtext" : "サブテキスト：最大２行",
+"supplementarytext" : "補助テキスト；１行",
+"image" : "",
+},
+{
+"cardid" : 2,
+"maintext" : "メインテキスト：最大２行 メインテキスト：最大２行 メインテキスト：最大２行 メインテキスト：最大２行",
+"subtext" : "サブテキスト：最大２行 サブテキスト：最大２行 サブテキスト：最大２行",
+"supplementarytext" : "補助テキスト；１行",
+"image" : "",
+},
+],
+
+"C" : [
+{
+"cardid" : 1,
+"maintext" : "メインテキスト：最大２行 メインテキスト：最大２行 メインテキスト：最大２行 メインテキスト：最大２行",
+"subtext" : "サブテキスト：最大２行 サブテキスト：最大２行 サブテキスト：最大２行",
+"supplementarytext" : "補助テキスト；１行",
+},
+{
+"cardid" : 2,
+"maintext" : "メインテキスト：最大２行 メインテキスト：最大２行 メインテキスト：最大２行 メインテキスト：最大２行",
+"subtext" : "サブテキスト：最大２行 サブテキスト：最大２行 サブテキスト：最大２行",
+"supplementarytext" : "補助テキスト；１行",
+},
+{
+"cardid" : 3,
+"maintext" : "メインテキスト：最大２行 メインテキス",
+"subtext" : "サブテキスト：最大２行 サブテキスト：最大２行 サブテキスト：最大２行",
+"supplementarytext" : "補助テキスト；１行",
+},
+],
+
+"D" : [
+{
+"cardid" : 1,
+"maintext" : "メインテキスト：最大２行 メインテキスト：最大２行 メインテキスト：最大２行 メインテキスト：最大２行",
+"subtext" : "サブテキスト：最大２行 サブテキスト：最大２行 サブテキスト：最大２行",
+"supplementarytext" : "",
+"image" : "http://www.footprintsrecruiting.com/sites/default/files/styles/landing_page_main_image/public/teach-english-in-japan.jpg",
+},
+{
+"cardid" : 2,
+"maintext" : "メインテキスト：最大２行 メインテキスト：最大２行 メインテキスト：最大２行 メインテキスト：最大２行",
+"subtext" : "サブテキスト：最大２行 サブテキスト：最大２行 サブテキスト：最大２行",
+"supplementarytext" : "",
+"image" : "https://static1.squarespace.com/static/57901762725e2547f073e884/t/57df1bcb2994ca976a787471/1474239437433/japan.jpg?format=1500w",
+},
+{
+"cardid" : 3,
+"maintext" : "メインテキスト：最大２行 メインテキスト：最大２行 メインテキスト：最大２行 メインテキスト：最大２行",
+"subtext" : "サブテキスト：最大２行 サブテキスト：最大２行 サブテキスト：最大２行",
+"supplementarytext" : "",
+"image" : "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Peablue_October_2007_Osaka_Japan.jpg/1024px-Peablue_October_2007_Osaka_Japan.jpg",
+},
+{
+"cardid" : 4,
+"maintext" : "メインテキスト：最大２行 メインテキスト：最大２行 メインテキスト：最大２行 メインテキスト：最大２行",
+"subtext" : "サブテキスト：最大２行 サブテキスト：最大２行 サブテキスト：最大２行",
+"supplementarytext" : "",
+"image" : "https://upload.wikimedia.org/wikipedia/commons/f/fc/National_Diet_Library_Japan.jpg",
+},
+],
+
+"E" : [
+{
+"cardid" : 1,
+"maintext" : "メインテキスト：最大２行 メインテキスト：最大２行 メインテキスト：最大２行 メインテキスト：最大２行",
+"image" : "",
+},
+{
+"cardid" : 2,
+"maintext" : "メインテキスト：最大２行 メインテキスト：最大２行 メインテキスト：最大２行 メインテキスト：最大２行",
+"image" : "",
+},
+{
+"cardid" : 3,
+"maintext" : "メインテキスト：最大２行 メインテキスト：最大２行 メインテキスト：最大２行 メインテキスト：最大２行",
+"image" : "",
+},
+{
+"cardid" : 4,
+"maintext" : "メインテキスト：最大２行 メインテキスト：最大２行 メインテキスト：最大２行 メインテキスト：最大２行",
+"image" : "",
+},
+{
+"cardid" : 5,
+"maintext" : "メインテキスト：最大２行 メインテキスト：最大２行 メインテキスト：最大２行 メインテキスト：最大２行",
+"image" : "",
+},
+{
+"cardid" : 6,
+"maintext" : "メインテキスト：最大２行 メインテキスト：最大２行 メインテキスト：最大２行 メインテキスト：最大２行",
+"image" : "",
+},
+]
+
+}
