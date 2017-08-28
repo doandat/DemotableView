@@ -41,23 +41,6 @@
 #import "GSKTestStretchyHeaderView.h"
 #import "GSKNibStretchyHeaderView.h"
 
-typedef NS_ENUM( NSInteger, CardType)
-{
-    CardTypeA = 1,
-    CardTypeB,
-    CardTypeC,
-    CardTypeD,
-    CardTypeE,
-    CardTypeF,
-    CardTypeG,
-    CardTypeH,
-    CardTypeI,
-    CardTypeJ,
-    CardTypeK,
-    CardTypeL,
-    
-};
-
 
 @interface CardViewController ()<UITableViewDataSource, UITableViewDelegate, WYPopoverControllerDelegate>{
     WYPopoverController *popoverController;
@@ -704,12 +687,6 @@ typedef NS_ENUM( NSInteger, CardType)
 }
 
 - (BOOL)isSectionB:(NSInteger)section {
-//    return section == 1;
-//    NSArray *pArr = [self.cardFactory getArrayIndexContainCardID:CardTypeB];
-//    BOOL isContain = [pArr containsObject:@(section)];
-//    if (section == 1) {
-//        NSLog(@"");
-//    }
     return [[self.cardFactory getArrayIndexContainCardID:CardTypeB] containsObject:@(section)];
 }
 
@@ -765,62 +742,50 @@ typedef NS_ENUM( NSInteger, CardType)
 
 //numberRowInSection
 - (NSInteger) numberRowInSectionAWithSection:(NSInteger)section {
-//    return [self.cardFactory getCardListModelWithCardID:CardTypeA].listItemGroup.count;
     return [self.cardFactory getCardListModelWithIndex:section].listItemGroup.count;
 }
 
 - (NSInteger) numberRowInSectionBWithSection:(NSInteger)section {
-//    return [self.cardFactory getCardListModelWithCardID:CardTypeB].listItemGroup.count;
     return [self.cardFactory getCardListModelWithIndex:section].listItemGroup.count;
 }
 
 - (NSInteger) numberRowInSectionCWithSection:(NSInteger)section {
-//    return [self.cardFactory getCardListModelWithCardID:CardTypeC].listItemGroup.count;
     return [self.cardFactory getCardListModelWithIndex:section].listItemGroup.count;
 }
 
 - (NSInteger) numberRowInSectionDWithSection:(NSInteger)section {
-//    return [self.cardFactory getCardListModelWithCardID:CardTypeD].listItemGroup.count > 0 ? 1 : 0;
     return [self.cardFactory getCardListModelWithIndex:section].listItemGroup.count > 0 ? 1 : 0;
 }
 
 - (NSInteger) numberRowInSectionEWithSection:(NSInteger)section {
-//    return [self.cardFactory getCardListModelWithCardID:CardTypeE].listItemGroup.count > 0 ? 1 : 0;
     return [self.cardFactory getCardListModelWithIndex:section].listItemGroup.count > 0 ? 1 : 0;
 }
 
 - (NSInteger) numberRowInSectionFWithSection:(NSInteger)section {
-//    return [self.cardFactory getCardListModelWithCardID:CardTypeF].listItemGroup.count > 0 ? 1 : 0;
     return [self.cardFactory getCardListModelWithIndex:section].listItemGroup.count > 0 ? 1 : 0;
 }
 
 - (NSInteger) numberRowInSectionGWithSection:(NSInteger)section {
-//    return [self.cardFactory getCardListModelWithCardID:CardTypeG].listItemGroup.count > 0 ? 1 : 0;
     return [self.cardFactory getCardListModelWithIndex:section].listItemGroup.count > 0 ? 1 : 0;
 }
 
 - (NSInteger) numberRowInSectionHWithSection:(NSInteger)section {
-//    return [self.cardFactory getCardListModelWithCardID:CardTypeH].listItemGroup.count > 0 ? 1 : 0;
     return [self.cardFactory getCardListModelWithIndex:section].listItemGroup.count > 0 ? 1 : 0;
 }
 
 - (NSInteger) numberRowInSectionIWithSection:(NSInteger)section {
-//    return [self.cardFactory getCardListModelWithCardID:CardTypeI].listItemGroup.count;
     return [self.cardFactory getCardListModelWithIndex:section].listItemGroup.count;
 }
 
 - (NSInteger) numberRowInSectionJWithSection:(NSInteger)section {
-//    return [self.cardFactory getCardListModelWithCardID:CardTypeJ].listItemGroup.count;
     return [self.cardFactory getCardListModelWithIndex:section].listItemGroup.count;
 }
 
 - (NSInteger) numberRowInSectionKWithSection:(NSInteger)section {
-//    return [self.cardFactory getCardListModelWithCardID:CardTypeK].listItemGroup.count > 0 ? 1 : 0;
     return [self.cardFactory getCardListModelWithIndex:section].listItemGroup.count > 0 ? 1 : 0;
 }
 
 - (NSInteger) numberRowInSectionLWithSection:(NSInteger)section {
-//    return [self.cardFactory getCardListModelWithCardID:CardTypeL].listItemGroup.count > 0 ? 1 : 0;
     return [self.cardFactory getCardListModelWithIndex:section].listItemGroup.count > 0 ? 1 : 0;
 }
 

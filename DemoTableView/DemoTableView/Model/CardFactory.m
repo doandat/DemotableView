@@ -12,6 +12,8 @@
 
 @property (strong, nonatomic) CardsContainer *container;
 
+@property (strong, nonatomic) NSMutableDictionary<NSNumber *, NSArray *> *dictCard;
+
 @end
 
 
@@ -27,6 +29,7 @@
         
         if (!pErr) {
             self.container = pCardsContainer;
+            self.dictCard = [[NSMutableDictionary alloc] initWithCapacity:12];
         } else {
             NSLog(@"cant not parse CardsContainer %@", pErr);
             return nil;
@@ -56,7 +59,6 @@
 }
 
 - (CardListModel *)getCardListModelWithCardID:(NSInteger)cardID {
-//    NSArray *results = [self.container.cardList filteredArrayUsingPredicate:[NSPredicate predicateWithFormat:@"cardId = %i", cardID]];
     NSArray *results = [self.container.cardList filteredArrayUsingPredicate:[NSPredicate predicateWithFormat:@"cardId = %i", cardID]];
     
     return results.firstObject;
@@ -67,6 +69,12 @@
 }
 
 - (NSArray<NSNumber*> *)getArrayIndexContainCardID:(NSInteger)cardID {
+    
+    NSArray *arrData = self.dictCard[@(cardID)];
+    if (arrData.count > 0) {
+        return arrData;
+    }
+    
     NSArray *results = [self.container.cardList filteredArrayUsingPredicate:[NSPredicate predicateWithFormat:@"cardId = %i", cardID]];
     if (results == nil || results.count == 0) {
         return nil;
@@ -80,9 +88,10 @@
         }
     }
     
+    self.dictCard[@(cardID)] = [pArray copy];
     
-    
-    return [pArray copy];
+//    return [pArray copy];
+    return self.dictCard[@(cardID)];
 }
 
 @end

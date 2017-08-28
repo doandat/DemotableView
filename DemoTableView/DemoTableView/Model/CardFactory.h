@@ -9,6 +9,24 @@
 #import <Foundation/Foundation.h>
 #import "CardsContainer.h"
 
+typedef NS_ENUM( NSInteger, CardType)
+{
+    CardTypeA = 1,
+    CardTypeB,
+    CardTypeC,
+    CardTypeD,
+    CardTypeE,
+    CardTypeF,
+    CardTypeG,
+    CardTypeH,
+    CardTypeI,
+    CardTypeJ,
+    CardTypeK,
+    CardTypeL,
+    
+};
+
+
 @interface CardFactory : NSObject
 
 - (instancetype)initWithDict:(NSDictionary*)dict;
