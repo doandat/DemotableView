@@ -31,6 +31,7 @@
 #import "CardHeaderTableView.h"
 #import "CardFooterTableView.h"
 #import "CardFooterEmptyTableView.h"
+#import "CardFooterFeedBackEmptyTableView.h"
 
 #import "CardFactory.h"
 //library
@@ -44,6 +45,7 @@
 
 @interface CardViewController ()<UITableViewDataSource, UITableViewDelegate, WYPopoverControllerDelegate>{
     WYPopoverController *popoverController;
+    NSInteger _sectionFeedBack;
 }
 
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
@@ -51,6 +53,7 @@
 @property (strong, nonatomic) GSKStretchyHeaderView *stretchyHeader;
 
 @property (strong, nonatomic) CardFactory *cardFactory;
+
 
 @end
 
@@ -60,10 +63,10 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.\
 
-        NSArray* nibViews = [[NSBundle mainBundle] loadNibNamed:@"GSKNibStretchyHeaderView"
+    NSArray* nibViews = [[NSBundle mainBundle] loadNibNamed:@"GSKNibStretchyHeaderView"
                                                           owner:self
                                                         options:nil];
-        self.stretchyHeader = nibViews.firstObject;
+    self.stretchyHeader = nibViews.firstObject;
     
     
     self.stretchyHeader.frame = CGRectMake(0, 0, self.tableView.frame.size.width, 100);
@@ -80,6 +83,9 @@
     [self setupUI];
     
     [self loadData];
+    
+    //
+    self->_sectionFeedBack = -1;
 }
 
 - (void)viewWillAppear:(BOOL)animated {
@@ -105,9 +111,9 @@
     
     NSArray<NSString *> *identifierList = @[
                                             @"EmptyTableViewCell",
-                                            @"CardHeaderTableViewCell",
-                                            @"CardFooterTableViewCell",
-                                            @"CardFooterEmptyTableViewCell",
+//                                            @"CardHeaderTableViewCell",
+//                                            @"CardFooterTableViewCell",
+//                                            @"CardFooterEmptyTableViewCell",
                                             @"CardATableViewCell",
                                             @"CardBTableViewCell",
                                             @"CardCTableViewCell",
@@ -132,6 +138,7 @@
                                             @"CardHeaderTableView",
                                             @"CardFooterTableView",
                                             @"CardFooterEmptyTableView",
+                                            @"CardFooterFeedBackEmptyTableView",
                                             ];
     
     for (NSString *item in identifierHeaderFooter) {
@@ -268,6 +275,16 @@
     }];
     
     
+    __weak typeof (self) thiz = self;
+    [header setActionFeedBack:^{
+        self->_sectionFeedBack = section;
+        dispatch_async(dispatch_get_main_queue(), ^{
+            [thiz.tableView reloadData];
+        });
+        
+    }];
+    
+    
 
     [header setupUI];
     
@@ -349,6 +366,10 @@
         return footer;
     }
 
+    if (section == self->_sectionFeedBack) {
+        return [self footerFeedBackEmptyAtSection:section];
+    }
+    
     return [self footerEmptyAtSection:section];
 }
 
@@ -378,6 +399,11 @@
         return;
     }
     
+    if (section == self->_sectionFeedBack) {
+        [((CardFooterFeedBackEmptyTableView *)view) setupUI];
+        return;
+    }
+    
     [((CardFooterEmptyTableView *)view) setupUI];
 }
 
@@ -399,6 +425,12 @@
 
 - (CardFooterEmptyTableView *)footerEmptyAtSection:(NSInteger )section {
     CardFooterEmptyTableView *footer = (CardFooterEmptyTableView *)[self.tableView dequeueReusableHeaderFooterViewWithIdentifier:@"CardFooterEmptyTableView"];
+    
+    return footer;
+}
+
+- (CardFooterFeedBackEmptyTableView *)footerFeedBackEmptyAtSection:(NSInteger )section {
+    CardFooterFeedBackEmptyTableView *footer = (CardFooterFeedBackEmptyTableView *)[self.tableView dequeueReusableHeaderFooterViewWithIdentifier:@"CardFooterFeedBackEmptyTableView"];
     
     return footer;
 }
@@ -516,16 +548,28 @@
         pCell.lbMainText.text = cardItem.text;
         pCell.lbSubText.text = cardItem.caption;
         
-        __weak typeof (self) thiz = self;
-        [pCell.imvDes sd_setImageWithURL:[NSURL URLWithString:cardItem.image] completed:^(UIImage * _Nullable image, NSError * _Nullable error, SDImageCacheType cacheType, NSURL * _Nullable imageURL) {
+        NSString *key = [[SDWebImageManager sharedManager] cacheKeyForURL:[NSURL URLWithString:cardItem.image]];
+        UIImage *image = [[SDImageCache sharedImageCache] imageFromDiskCacheForKey:key];
+        
+        if (image) {
             CGFloat height = ([UIScreen mainScreen].bounds.size.width- 32) * image.size.height / image.size.width;
-            NSLog(@"Finish:%f", height);
             dispatch_async(dispatch_get_main_queue(), ^{
                 pCell.constraintMaxHeightImv.constant = height < [UIScreen mainScreen].bounds.size.width - 32 ? height : [UIScreen mainScreen].bounds.size.width - 32;
-//                [thiz.tableView beginUpdates];
-//                [thiz.tableView endUpdates];
             });
-        }];
+        } else {
+            __weak typeof (self) thiz = self;
+            [pCell.imvDes sd_setImageWithURL:[NSURL URLWithString:cardItem.image] completed:^(UIImage * _Nullable image, NSError * _Nullable error, SDImageCacheType cacheType, NSURL * _Nullable imageURL) {
+                CGFloat height = ([UIScreen mainScreen].bounds.size.width- 32) * image.size.height / image.size.width;
+                NSLog(@"Finish:%f", height);
+                dispatch_async(dispatch_get_main_queue(), ^{
+                    pCell.constraintMaxHeightImv.constant = height < [UIScreen mainScreen].bounds.size.width - 32 ? height : [UIScreen mainScreen].bounds.size.width - 32;
+                    [thiz.tableView beginUpdates];
+                    [thiz.tableView endUpdates];
+                });
+            }];
+        }
+        
+        
         
     }
 
@@ -662,6 +706,10 @@
     }
     
     if ([self isSectionJ: section] && [self numberRowInSectionJWithSection:section] > 1) {
+        return 50.0;
+    }
+    
+    if (section == self->_sectionFeedBack) {
         return 50.0;
     }
     

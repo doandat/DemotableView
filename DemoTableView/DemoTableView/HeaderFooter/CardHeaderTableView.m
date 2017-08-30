@@ -34,8 +34,11 @@
 }
 
 - (IBAction)actionButton:(id)sender {
-    if (self.actionShowPopover) {
-        self.actionShowPopover(sender);
+//    if (self.actionShowPopover) {
+//        self.actionShowPopover(sender);
+//    }
+    if (self.actionFeedBack) {
+        self.actionFeedBack();
     }
 }
 

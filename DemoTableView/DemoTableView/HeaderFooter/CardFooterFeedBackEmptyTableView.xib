@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="CardFooterFeedBackEmptyTableView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fC5-xJ-s4m">
+                    <rect key="frame" x="8" y="0.0" width="359" height="42"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xte-In-14R">
+                            <rect key="frame" x="8" y="8" width="167.5" height="26"/>
+                            <state key="normal" title="役に立った"/>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lNj-Vp-BHy">
+                            <rect key="frame" x="183.5" y="8" width="167.5" height="26"/>
+                            <state key="normal" title="興味なし"/>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="lNj-Vp-BHy" firstAttribute="leading" secondItem="xte-In-14R" secondAttribute="trailing" constant="8" id="IhW-Ao-BDy"/>
+                        <constraint firstAttribute="bottom" secondItem="lNj-Vp-BHy" secondAttribute="bottom" constant="8" id="JbU-du-sdG"/>
+                        <constraint firstAttribute="bottom" secondItem="xte-In-14R" secondAttribute="bottom" constant="8" id="OtC-XV-4dJ"/>
+                        <constraint firstAttribute="trailing" secondItem="lNj-Vp-BHy" secondAttribute="trailing" constant="8" id="UDN-AI-fpY"/>
+                        <constraint firstItem="xte-In-14R" firstAttribute="leading" secondItem="fC5-xJ-s4m" secondAttribute="leading" constant="8" id="ev9-9h-qNw"/>
+                        <constraint firstItem="xte-In-14R" firstAttribute="top" secondItem="fC5-xJ-s4m" secondAttribute="top" constant="8" id="gt5-8o-WJ8"/>
+                        <constraint firstItem="lNj-Vp-BHy" firstAttribute="width" secondItem="xte-In-14R" secondAttribute="width" id="kMT-Eq-FxS"/>
+                        <constraint firstItem="lNj-Vp-BHy" firstAttribute="top" secondItem="fC5-xJ-s4m" secondAttribute="top" constant="8" id="tLa-n9-BLV"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="fC5-xJ-s4m" secondAttribute="trailing" constant="8" id="InD-tK-FKA"/>
+                <constraint firstAttribute="bottom" secondItem="fC5-xJ-s4m" secondAttribute="bottom" constant="8" id="Y4w-je-NUc"/>
+                <constraint firstItem="fC5-xJ-s4m" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="bKW-GY-KbA"/>
+                <constraint firstItem="fC5-xJ-s4m" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="mWh-e2-UNA"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="btnNoInterest" destination="lNj-Vp-BHy" id="4EZ-98-D6g"/>
+                <outlet property="btnUseful" destination="xte-In-14R" id="Ef5-ml-sJj"/>
+                <outlet property="viewContain" destination="fC5-xJ-s4m" id="6kI-vT-fWf"/>
+            </connections>
+            <point key="canvasLocation" x="24.5" y="-255"/>
+        </view>
+    </objects>
+</document>

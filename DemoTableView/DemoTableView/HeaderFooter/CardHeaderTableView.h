@@ -12,6 +12,8 @@
 
 @property (copy, nonatomic) void(^actionShowPopover)(UIButton *button);
 
+@property (copy, nonatomic) void(^actionFeedBack)();
+
 - (void)setupUI;
 
 

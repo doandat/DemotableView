@@ -89,6 +89,10 @@
 		B060DD8F1F4AE99B002637DB /* CardFooterTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B060DD8D1F4AE99B002637DB /* CardFooterTableViewCell.xib */; };
 		B0F1FC9A1F50268E001AE034 /* CardFooterEmptyTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0F1FC991F50268E001AE034 /* CardFooterEmptyTableView.xib */; };
 		B0F1FC9D1F50269C001AE034 /* CardFooterEmptyTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F1FC9C1F50269C001AE034 /* CardFooterEmptyTableView.m */; };
+		B0FD1B2F1F569A3E0048B9AB /* CardFooterFeedBackTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = B0FD1B2E1F569A3E0048B9AB /* CardFooterFeedBackTableView.m */; };
+		B0FD1B311F569A510048B9AB /* CardFooterFeedBackTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0FD1B301F569A510048B9AB /* CardFooterFeedBackTableView.xib */; };
+		B0FD1B341F569A970048B9AB /* CardFooterFeedBackEmptyTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = B0FD1B331F569A970048B9AB /* CardFooterFeedBackEmptyTableView.m */; };
+		B0FD1B361F569AA10048B9AB /* CardFooterFeedBackEmptyTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0FD1B351F569AA10048B9AB /* CardFooterFeedBackEmptyTableView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -244,6 +248,12 @@
 		B0F1FC991F50268E001AE034 /* CardFooterEmptyTableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CardFooterEmptyTableView.xib; sourceTree = "<group>"; };
 		B0F1FC9B1F50269C001AE034 /* CardFooterEmptyTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardFooterEmptyTableView.h; sourceTree = "<group>"; };
 		B0F1FC9C1F50269C001AE034 /* CardFooterEmptyTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardFooterEmptyTableView.m; sourceTree = "<group>"; };
+		B0FD1B2D1F569A3E0048B9AB /* CardFooterFeedBackTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardFooterFeedBackTableView.h; sourceTree = "<group>"; };
+		B0FD1B2E1F569A3E0048B9AB /* CardFooterFeedBackTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardFooterFeedBackTableView.m; sourceTree = "<group>"; };
+		B0FD1B301F569A510048B9AB /* CardFooterFeedBackTableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CardFooterFeedBackTableView.xib; sourceTree = "<group>"; };
+		B0FD1B321F569A970048B9AB /* CardFooterFeedBackEmptyTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardFooterFeedBackEmptyTableView.h; sourceTree = "<group>"; };
+		B0FD1B331F569A970048B9AB /* CardFooterFeedBackEmptyTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardFooterFeedBackEmptyTableView.m; sourceTree = "<group>"; };
+		B0FD1B351F569AA10048B9AB /* CardFooterFeedBackEmptyTableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CardFooterFeedBackEmptyTableView.xib; sourceTree = "<group>"; };
 		D79C7C68ACACAF6F7723F311 /* Pods-DemoTableViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoTableViewTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DemoTableViewTests/Pods-DemoTableViewTests.release.xcconfig"; sourceTree = "<group>"; };
 		DADC18D20401DFC53C2EAF75 /* Pods-DemoTableViewUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoTableViewUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DemoTableViewUITests/Pods-DemoTableViewUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		F70ECA3FCE5C7BDA5A4410AB /* Pods-DemoTableViewUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoTableViewUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DemoTableViewUITests/Pods-DemoTableViewUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -540,6 +550,12 @@
 				B0F1FC9B1F50269C001AE034 /* CardFooterEmptyTableView.h */,
 				B0F1FC9C1F50269C001AE034 /* CardFooterEmptyTableView.m */,
 				B0F1FC991F50268E001AE034 /* CardFooterEmptyTableView.xib */,
+				B0FD1B2D1F569A3E0048B9AB /* CardFooterFeedBackTableView.h */,
+				B0FD1B2E1F569A3E0048B9AB /* CardFooterFeedBackTableView.m */,
+				B0FD1B301F569A510048B9AB /* CardFooterFeedBackTableView.xib */,
+				B0FD1B321F569A970048B9AB /* CardFooterFeedBackEmptyTableView.h */,
+				B0FD1B331F569A970048B9AB /* CardFooterFeedBackEmptyTableView.m */,
+				B0FD1B351F569AA10048B9AB /* CardFooterFeedBackEmptyTableView.xib */,
 			);
 			path = HeaderFooter;
 			sourceTree = "<group>";
@@ -676,11 +692,13 @@
 				B03319EE1F4D696A00FDC43E /* CardJ2TableViewCell.xib in Resources */,
 				B0268ECD1F4D21FB00FDF1FB /* CardLTableViewCell.xib in Resources */,
 				B0268EC31F4D21D900FDF1FB /* CardJTableViewCell.xib in Resources */,
+				B0FD1B361F569AA10048B9AB /* CardFooterFeedBackEmptyTableView.xib in Resources */,
 				B0244B1A1F4BD43000040E0F /* LICENSE_jsonmodel.txt in Resources */,
 				B02CAA191F500C63008783D1 /* CardHeaderTableView.xib in Resources */,
 				B0268EC81F4D21E800FDF1FB /* CardKTableViewCell.xib in Resources */,
 				B02CA9FF1F4FBFD6008783D1 /* DemoHeaderTableViewController.xib in Resources */,
 				B060DD6D1F4AD648002637DB /* CardViewController.xib in Resources */,
+				B0FD1B311F569A510048B9AB /* CardFooterFeedBackTableView.xib in Resources */,
 				B0F1FC9A1F50268E001AE034 /* CardFooterEmptyTableView.xib in Resources */,
 				B03319F31F4D6DB800FDC43E /* CardLItemCollectionViewCell.xib in Resources */,
 				B060DD841F4AE3E4002637DB /* EmptyTableViewCell.xib in Resources */,
@@ -891,6 +909,7 @@
 				B060DD831F4AE3E4002637DB /* EmptyTableViewCell.m in Sources */,
 				B0244B321F4BE74F00040E0F /* CardEItemCollectionCell.m in Sources */,
 				B060DD8E1F4AE99B002637DB /* CardFooterTableViewCell.m in Sources */,
+				B0FD1B2F1F569A3E0048B9AB /* CardFooterFeedBackTableView.m in Sources */,
 				B0244B2D1F4BE73C00040E0F /* CardDItemCollectionCell.m in Sources */,
 				B060DD6C1F4AD648002637DB /* CardViewController.m in Sources */,
 				B0244B371F4C0FFB00040E0F /* CardITableViewCell.m in Sources */,
@@ -909,6 +928,7 @@
 				B03849C51F4E7A5200572300 /* CardFooterEmptyTableViewCell.m in Sources */,
 				B0268EC21F4D21D900FDF1FB /* CardJTableViewCell.m in Sources */,
 				B0244B171F4BD43000040E0F /* JSONModel+networking.m in Sources */,
+				B0FD1B341F569A970048B9AB /* CardFooterFeedBackEmptyTableView.m in Sources */,
 				B0244B161F4BD43000040E0F /* JSONHTTPClient.m in Sources */,
 				B0244B1F1F4BD51200040E0F /* CardsContainer.m in Sources */,
 				B03319ED1F4D696A00FDC43E /* CardJ2TableViewCell.m in Sources */,
@@ -1074,6 +1094,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = N5J9CB2NJD;
 				INFOPLIST_FILE = DemoTableView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.DemoTableView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1087,6 +1108,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = N5J9CB2NJD;
 				INFOPLIST_FILE = DemoTableView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.DemoTableView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
